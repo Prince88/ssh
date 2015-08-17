@@ -44,6 +44,8 @@ class ssh(object):
             self._ssh.connect(self.IP,username=self.username,password=self.password)
         except Exception as e:
             raise str(e)        
+
+
     def _checkConnection(self):
 
         """
