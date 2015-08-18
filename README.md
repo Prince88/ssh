@@ -18,4 +18,13 @@ sshclient.execute("ls /prince")
 
 (b'test.txt\n', 0)
 
+Requirements:
+
+Python pakages
+  1) Paramiko
+  
+Python version:
+  python 2.4/2.5/2.6/2.7
+
+
 Please feel free to use it modify/update
